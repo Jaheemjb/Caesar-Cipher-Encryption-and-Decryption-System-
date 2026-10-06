@@ -108,7 +108,7 @@ def main_menu_loop() -> None:
     """Primary orchestration menu loop."""
     while True:
         print("\n" + "=" * 50)
-        print("       DUO 7 CAESAR CIPHER CRYPTOGRAPHIC SYSTEM ")
+        print("       DUO 7 CAESAR CIPHER SYSTEM ")
         print("=" * 50)
         print("1. Encrypt a Message")
         print("2. Decrypt a Message")
