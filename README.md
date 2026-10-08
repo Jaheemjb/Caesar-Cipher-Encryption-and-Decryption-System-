@@ -37,7 +37,7 @@ When launched, the system presents an interactive command-line interface menu:
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+  CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -56,7 +56,7 @@ Select a menu option (1-5):
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+ CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -83,7 +83,7 @@ Encrypted Message: KHOOR
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+ CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -108,7 +108,7 @@ Decrypted Message: HELLO
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+ CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -143,7 +143,7 @@ Shift 10: AXEEH
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+ CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -176,7 +176,7 @@ Record #2
 
 ```text
 ==================================================
-       CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
+ CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM 
 ==================================================
 1. Encrypt a Message
 2. Decrypt a Message
@@ -195,5 +195,20 @@ Select a menu option (1-5): 5
 
 ```
 ## 🔒 Error Handling & Safety
+
+```text
+==================================================
+  CODE COBRAS CAESAR CIPHER CRYPTOGRAPHIC SYSTEM       
+==================================================
+1. Encrypt a Message
+2. Decrypt a Message
+3. Simulate Brute-Force Attack (Shifts 1-10)
+4. View Session Encryption History
+5. Exit System
+==================================================
+Select a menu option (1-5): r
+[ERROR] Selection out of bounds. Please input a choice between 1 and 5.
+```
+
 * **Input Validation:** Prevents application crashes from empty commands, decimal shift inputs, or entries exceeding the 0–11 bounds.
 * **Graceful Termination:** Includes built-in support for `Ctrl + C` (KeyboardInterrupt), shutting down cleanly without raising unhandled Python system tracebacks.
